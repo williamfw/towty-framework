@@ -1,0 +1,8 @@
+22/08/2013 - 02.00.000 - William Fabr�cio Werling - Liberada vers�o 2.0.0 do Towty Framework.
+
+16/09/2013 - 02.00.001 - William Fabr�cio Werling - Nesta vers�o corrigi os arquivos HtmlHelper. Inclui a propriedade "id" nos m�todos que criam links. 
+
+04/11/2013 - 02.00.002 - William Fabr�cio Werling - Altera��es:
+	- atribulo "Model" do DaoBase passou de private para protected.
+	- Alteraes no ImagemHelper
+	- metodo CarregarClasse do ClassLoader passou de private para public

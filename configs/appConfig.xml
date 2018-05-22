@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<apps>
+	<app nome="site" alias="" padrao="true">
+		<diretorios>			
+			<uploads>apps/site/uploads</uploads>						
+		</diretorios>
+	</app>	
+	<app nome="ecommerce" alias="admin" padrao="false">
+		<diretorios>
+			<uploads>apps/ecommerce/uploads/</uploads>
+		</diretorios>
+	</app>	
+</apps>

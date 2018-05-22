@@ -1,0 +1,520 @@
+@font-face { 
+    font-family: 'HelveticaNeue';
+    /*src: local('HelveticaNeue'), url('HelveticaNeue.ttf') format('opentype');*/
+}
+
+body {
+	font-family: 'HelveticaNeue', 'Helvetica';
+	font-size: 12px;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #444444;
+}
+
+div.clear {
+	clear: both;
+}
+
+.centralizar
+{
+	margin: 0 auto 10px;
+	/*width: 1000px;*/
+	padding: 0 10px;
+    max-width: 1680px;
+    min-width: 973px;
+}
+
+div.site-map {
+	margin: 30px 0;
+	color: #656565;
+}
+
+div#topo {
+	background-color: #FAFAFA;
+	height: 155px;
+	width: auto;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	position: relative;
+	z-index: 99;
+}
+	
+	div#topo div#topo-informacoes
+	{
+		height: 120px;
+	}
+
+		div#topo div#topo-informacoes div#logo {
+			width: 20%;
+			padding-top: 27px;
+			float: left;
+		}
+
+		div#topo div#topo-informacoes div#buscar {
+			width: 60%;
+			padding-top: 43px;
+			float: left;
+		}
+
+			div#topo div#topo-informacoes div#buscar input {
+				width: 80%;
+				height: 28px;
+				border: 1px solid #EFEFEF;
+				color: #ACACAC;
+				font-size: 12px;
+				text-indent: 6px;
+				border-right: none;
+				float: left;
+			}
+
+			div#topo div#topo-informacoes div#buscar input[type="button"] {
+				border: 1px solid #EFEFEF;
+				height: 32px;
+				width: 32px;
+				background: url("../img/imagens.png") repeat scroll 118px -3px #F5F5F5;
+				cursor: pointer;
+				border-left: none;
+				float: left;
+			}
+
+			div#topo div#topo-informacoes div#buscar input[type="button"]:hover {
+				background: url("../img/imagens.png") repeat scroll 118px -38px #FC5B5B;
+			}
+
+		div#topo div#topo-informacoes div#carrinho-usuario {
+			width: 20%;
+			padding-top: 14px;
+			float: left;
+			color: #444444;
+			text-align: right;
+		}
+
+			div#topo div#topo-informacoes div#carrinho-usuario div#informacao-loja-contato {
+				font-size: 15px;
+			}
+
+			div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario {
+				margin-top: 25px;
+				font-size: 12px;
+				float: right;
+			}
+
+				div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario span {
+					color: #FC5A5A;
+					font-size: 16px;
+				}
+
+				div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras {
+					width: 360px;
+					padding: 15px;
+					background-color: #fff;
+					position: absolute;
+					box-shadow: 0px 0px 17px;
+					border-radius: 1px;
+					margin-left: -192px;
+					margin-top: -1px;
+					display: none;
+					background-color: #fff;
+				}
+
+					div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras p {
+						font-size: 12px;
+						color: #808080;
+						margin-bottom: 11px;
+					}
+
+					div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras p.total {
+						font-size: 18px;
+						color: #444;
+						text-align: right;
+					}
+
+					div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras div.carrinho-finalizar {
+						background-color: #CCCCCC;
+						height: 46px;
+						width: 100%;
+					}
+
+					div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras div.carrinho-finalizar:hover {
+						background-color: #FC5B5B;
+					}
+
+						div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras div.carrinho-finalizar input {
+							font-size: 18px;
+							color: #fff;
+							text-align: center;
+							width: 100%;
+							border: none;
+							background-color: transparent;
+							height: 46px;
+							cursor: pointer;
+						}
+
+						div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras div.carrinho-finalizar div#carrinho-finalizar-imagem {
+							background: url("../img/imagens.png") no-repeat scroll -104px -71px transparent;
+						    height: 19px;
+						    margin: 13px 0;
+						    position: absolute;
+						    right: 78px;
+						    width: 8px;
+						}
+
+					div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li:first-child {
+						border-top: 1px solid #EFEFEF;
+						padding-top: 10px;
+					}
+
+					div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li:last-child {
+						border-bottom: 1px solid #EFEFEF;
+						padding-bottom: 10px;
+					}
+
+					div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li {
+						padding: 5px 0;
+						float: left;
+						width: 100%;
+					}
+
+						div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li div.carrinho-produto-imagem {
+							background-color: #EFEFEF;
+							width: 75px;
+							height: 100px;
+							margin-right: 20px;
+							float: left;
+						}
+
+						div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li div.carrinho-produto-informacao {
+							width: 189px;
+							float: left;
+						}
+
+							div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li div.carrinho-produto-informacao p {
+								font-size: 12px;
+								color: #7F7F7F;
+							}
+
+							div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li div.carrinho-produto-informacao span {
+								font-size: 16px;
+								color: #FC5A5A;
+							}
+
+						div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li div.carrinho-produto-acao {
+							float: right;
+						}
+
+							div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li div.carrinho-produto-acao input.editar{
+								float: right;
+								background: url("../img/imagens.png") repeat scroll -1px -72px transparent;
+								cursor: pointer;
+								border: 0;
+								height: 14px;
+								width: 15px;
+							}
+
+							div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li div.carrinho-produto-acao input.editar:hover{
+								background: url("../img/imagens.png") repeat scroll -1px -86px transparent;
+							}
+
+							div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li div.carrinho-produto-acao input.excluir{
+								float: right;
+								background: url("../img/imagens.png") repeat scroll -23px -72px transparent;
+								cursor: pointer;
+								border: 0;
+								height: 15px;
+								width: 15px;
+							}
+
+							div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a div#carrinho-compras ul li div.carrinho-produto-acao input.excluir:hover{
+								background: url("../img/imagens.png") repeat scroll -23px -87px transparent;
+							}
+
+				div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario a:hover div#carrinho-compras {
+					display: block;
+				}
+
+				div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario ul li {
+					float: left;
+					padding-right: 8px; 
+				}
+
+					div#topo div#topo-informacoes div#carrinho-usuario div#menu-usuario ul li a:hover{
+						color: #FC5959
+					}
+
+
+	
+	div#topo div#topo-menu
+	{
+	}
+	
+		div#topo div#topo-menu ul li
+		{
+			float: left;
+			font-size: 14px;
+			color: #444444;
+		}
+
+			div#topo div#topo-menu ul li div.menu-itens:hover a.topo-menu-link-nome
+			{
+				color: #FC5959;
+				border-bottom: 2px solid #FC5959;
+			}
+
+			div#topo div#topo-menu ul li div.topo-menu-link
+			{
+				background-color: #fff;
+				border-bottom: 1px solid #ccc;
+				padding: 20px;
+				position: absolute;
+				margin-top: 17px;
+				display: none;
+			}
+
+				div#topo div#topo-menu ul li div.topo-menu-link a
+				{
+					padding: 0;
+					color: #808080;
+				}
+
+				div#topo div#topo-menu ul li div.topo-menu-link a:hover
+				{
+					border: none;
+					color: #FC5959;
+				}
+
+				div#topo div#topo-menu ul li div.topo-menu-link ul 
+				{
+					float: left;
+					padding-right: 40px;
+				}
+
+					div#topo div#topo-menu ul li div.topo-menu-link ul li:first-child
+					{
+						font-size: 13px;
+						margin-bottom: 10px;
+						color: #444;
+						list-style: none;
+					}
+
+					div#topo div#topo-menu ul li div.topo-menu-link ul li
+					{
+						float: none;
+						margin: 15px;
+						color: #808080;
+						font-size: 12px;
+						list-style: square outside none;
+					}
+
+			div#topo div#topo-menu ul li a
+			{
+				padding: 0 15px 17px 15px;
+				position: relative;
+				z-index: 9;
+			}
+
+			div#topo div#topo-menu ul li a:hover
+			{
+				color: #FC5959;
+				border-bottom: 2px solid #FC5959;
+			}
+
+
+div#conteudo h1{
+	font-size: 14px;
+	color: #7F7F7F;
+	font-weight: normal;
+	margin: 23px 0 33px 10px;
+}
+
+div#conteudo ul li {
+	float: left;
+	/*width: 20%;
+	min-width: 320px;*/
+	margin: 0 1%
+}
+
+div#conteudo ul li div.produtos{
+	width: 270px;
+	height: 460px;
+	background-color: #FAFAFA;
+	border-bottom: 2px solid #F5F5F5;
+	margin-bottom: 30px;
+}
+
+div#conteudo ul li div.produtos:hover{
+	border-bottom: 2px solid #FC5B5B;
+}
+
+	div#conteudo ul li div.produtos p{
+		text-align: center;
+		height: 28px;
+		font-size: 14px;
+		color: #444;
+		margin-top: 14px;
+	}
+
+	div#conteudo ul li div.produtos p a:hover{
+		color: #FC5B5B;
+	}
+
+		div#conteudo ul li div.produtos div.produtos-valor-adicionar{
+			height: 30px
+		}
+
+			div#conteudo ul li div.produtos div.produtos-valor-adicionar span.produtos-valor {
+				font-size: 18px;
+				color: #656565;
+				margin-left: 15px;
+			}
+
+			div#conteudo ul li div.produtos div.produtos-valor-adicionar span.produtos-valor-desconto-riscado {
+				font-size: 13px;
+				color: #656565;
+				margin-left: 15px;
+				text-decoration: line-through;
+			}
+
+				div#conteudo ul li div.produtos div.produtos-valor-adicionar span.produtos-valor-desconto {
+					font-size: 18px;
+					color: #FC5959;
+					margin-left: 2px;
+					text-decoration: none;
+				}
+
+			div#conteudo ul li div.produtos div.produtos-valor-adicionar a.adicionar {
+				padding: 7px 20px;
+				color: #fff;
+				background-color: #ccc;
+				text-align: center;
+				float: right;
+				margin-right: 15px;
+			}
+
+			div#conteudo ul li div.produtos div.produtos-valor-adicionar a.adicionar:hover {
+				background-color: #FC5B5B;
+			}
+
+div#rodape
+{
+	background: #222;
+	padding: 25px 0;
+}
+
+	div#rodape ul li:first-child
+	{
+		font-size: 15px;
+		color: #fff;
+		margin-bottom: 30px;
+		height: 0;
+	}
+	div#rodape ul li:last-child
+	{
+		padding-bottom: 70px;
+	}
+
+	div#rodape ul li
+	{
+		height: 50px;
+	}
+
+		div#rodape ul li p
+		{
+			color: #7F7F7F;
+			font-size: 12px;
+		}
+
+		div#rodape ul li div#rodape-casa
+		{
+			height: 30px;
+			width: 32px;
+			background: url("../img/imagens.png") repeat scroll 38px 0 transparent;
+			float: left;
+			margin-right: 12px;
+		}
+
+		div#rodape ul li div#rodape-casa:hover
+		{
+			background: url("../img/imagens.png") repeat scroll 79px 0 transparent;
+		}
+
+		div#rodape ul li div#rodape-telefone
+		{
+			height: 30px;
+			width: 32px;
+			background: url("../img/imagens.png") repeat scroll 41px -44px transparent;
+			float: left;
+			margin-right: 12px;
+		}
+
+		div#rodape ul li div#rodape-telefone:hover
+		{
+			background: url("../img/imagens.png") repeat scroll 77px -44px transparent;
+		}
+
+		div#rodape ul li div#rodape-email
+		{
+			height: 30px;
+			width: 32px;
+			background: url("../img/imagens.png") repeat scroll 39px -86px transparent;
+			float: left;
+			margin-right: 12px;
+		}
+
+		div#rodape ul li div#rodape-email:hover
+		{
+			background: url("../img/imagens.png") repeat scroll 77px -86px transparent;
+		}
+
+
+/* BX SLIDER */
+
+.bx-wrapper .bx-viewport {
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: 0 !important;
+	left: 0 !important;
+	background: transparent !important;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    height: 70px !important;
+    margin-top: -33px !important;
+    outline: 0 none;
+    position: absolute;
+    text-indent: -9999px;
+    top: 50%;
+    width: 56px !important;
+    z-index: 9999;
+}
+
+.bx-wrapper .bx-prev {
+	background: url("../img/imagens.png") repeat scroll -2px 0 #808080 !important;
+    left: 0 !important;
+}
+
+.bx-wrapper .bx-next {
+	background: url("../img/imagens.png") repeat scroll -55px 0 #808080 !important;
+    right: 0 !important;
+}
+
+.bx-wrapper .bx-prev:hover, .bx-wrapper .bx-next:hover {
+	background-color: #FC5B5B !important;
+}
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 0 !important;
+    display: none;
+}
+
+.bx-wrapper {
+    margin: 0 auto 0 !important;
+    padding: 0;
+    position: relative;
+}
+
+/* BANNER */
+

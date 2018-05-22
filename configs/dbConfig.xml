@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<db>
+	<conexao modo="desenvolvimento">
+		<driver>pdo_mysql</driver>
+		<user>root</user>
+		<password></password>
+		<dbname>geckoscms</dbname>
+        <charset>utf8</charset>
+	</conexao>			
+</db>

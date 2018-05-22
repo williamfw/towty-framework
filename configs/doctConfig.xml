@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<db>
+	<conexao desenvolvimento="true" default="true">
+		<driver>pdo_mysql</driver>
+		<user>root</user>
+		<password></password>
+		<dbname>geckoscms</dbname>
+        <charset>utf8</charset>
+	</conexao>
+	<conexao desenvolvimento="false">
+		<driver>pdo_mysql</driver>
+		<user>123456</user>
+		<password>123456</password>
+		<dbname>db_teste</dbname>
+        <charset>utf8</charset>
+	</conexao>
+	<diretorios>
+		<models>apps/cms/models/</models>
+		<proxies>apps/cms/proxies/</proxies>
+	</diretorios>
+</db>
